@@ -77,6 +77,9 @@ td:last-child {
 }
 
 @media only screen and (min-width: 1240px) {
+    .article {
+        padding: 167px 32px;
+    }
     .headings-display-big {
         font-size: 36px;
         font-family: "DM Sans";

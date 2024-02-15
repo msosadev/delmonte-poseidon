@@ -1,0 +1,38 @@
+[
+    {
+      "id": "section1",
+      "title": "What is a social media calendar?",
+      "subSection": false
+    },
+    {
+      "id": "section2",
+      "title": "How to Create a Social Media Calendar",
+      "subSection": false
+    },
+    {
+      "id": "section2.1",
+      "title": "1. Conduct a social media audit.",
+      "subSection": true
+    },
+    {
+      "id": "section2.2",
+      "title": "2. Choose your social media channels and the content you'll post.",
+      "subSection": true
+    },
+    {
+      "id": "section2.3",
+      "title": "3. Decide what your calendar should include.",
+      "subSection": true
+    },
+    {
+      "id": "section2.4",
+      "title": "4. Get feedback.",
+      "subSection": true
+    },
+    {
+      "id": "section3",
+      "title": "Social Media Content Calendar Tools to Plan Your Messaging",
+      "subSection": false
+    }
+  ]
+  

@@ -9,6 +9,7 @@
     --on-primary: #FFF;
     --primary-500: 55, 75, 255;
     --primary-300: #9BA6FE;
+    --primary-100: #DFE1FE;
     --secondary-500: #4DFFDF;
     --secondary-200: #C5FDF4;
     --color-primary-500: rgba(55, 75, 255, 1);
@@ -342,7 +343,7 @@ body {
         text-transform: none;
     }
 
-    
+
     .headings-h-3-bold {
         font-size: 25px;
         font-family: "DM Sans";
@@ -474,10 +475,38 @@ button {
 
     .article {
         flex: 1;
-        width: 328px;
+        width: 577px;
+        margin: 0 auto;
     }
 
-    .navigation {
+    .navigation-wrapper {
         flex: 0 0 315px;
     }
+
+    .article-wrapper {
+        width: 100%;
+    }
 }
+
+@media only screen and (min-width: 1240px) {
+    .article {
+        width: 657px;
+    }
+}
+
+/* Progress bar */
+
+.progress-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary-100);
+    z-index: 100;
+}
+
+.progress-bar {
+    height: 16px;
+    background-color: var(--color-primary-500);
+    width: 0;
+}
+

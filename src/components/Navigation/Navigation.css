@@ -1,7 +1,11 @@
-
 .navigation {
+    position: sticky;
+    top: 167px;
+}
+
+.navigation-wrapper {
     background-color: var(--color-sidebar-solid);
-    padding: 16px;
+    padding: 167px 16px;
 }
 
 .navigation ul {
@@ -12,22 +16,25 @@
     margin: 16px 0;
 }
 
-.first-level li {
-    color: var(--grey-blue-600);
-}
-
-.second-level li {
+.sub-section {
+    padding-left: 16px;
     color: var(--grey-blue-900);
 }
 
-.navigation-active li {
-    color: red;
+.section {
+    color: var(--grey-blue-600);
 }
 
-.first-level {
+.section,
+.sub-section {
+    cursor: pointer;
+}
+
+.navigation>ul {
     padding: 0;
 }
 
-.second-level {
-    padding-left: 16px;
+
+.navigation .active {
+    color: var(--color-primary-500);
 }
