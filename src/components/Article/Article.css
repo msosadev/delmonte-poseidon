@@ -1,0 +1,89 @@
+.article {
+    padding: 16px;
+}
+
+.article .headings-display-big {
+    font-size: 24px;
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.visual-link {
+    margin-bottom: 40px;
+}
+
+
+.link-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(328px, 1fr));
+    grid-auto-rows: repeat(auto);
+    grid-gap: 24px;
+    margin-bottom: 40px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-auto-rows: repeat(auto);
+    grid-gap: 24px;
+    margin-bottom: 40px;
+}
+
+.table-container {
+    --border-radius: 10px;
+    --border-color: #000;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+th,
+td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    /* Add border to the right of each cell */
+}
+
+tr:last-child td {
+    border-bottom: none;
+    /* Remove border from the last row */
+}
+
+td:last-child {
+    border-right: none;
+    /* Remove border from the last cell in each row */
+}
+
+@media only screen and (min-width: 600px) {
+    .article {
+        padding: 32px;
+    }
+}
+
+@media only screen and (min-width: 1240px) {
+    .headings-display-big {
+        font-size: 36px;
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-style: normal;
+        line-height: 40px;
+        text-decoration: none;
+        text-transform: none;
+    }
+}

@@ -1,0 +1,17 @@
+.flex-link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.link-img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}

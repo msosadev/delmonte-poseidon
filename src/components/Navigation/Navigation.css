@@ -1,0 +1,33 @@
+
+.navigation {
+    background-color: var(--color-sidebar-solid);
+    padding: 16px;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation li {
+    margin: 16px 0;
+}
+
+.first-level li {
+    color: var(--grey-blue-600);
+}
+
+.second-level li {
+    color: var(--grey-blue-900);
+}
+
+.navigation-active li {
+    color: red;
+}
+
+.first-level {
+    padding: 0;
+}
+
+.second-level {
+    padding-left: 16px;
+}
