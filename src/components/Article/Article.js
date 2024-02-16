@@ -201,7 +201,7 @@ export default function Article() {
           </span>
           <h3 className="headings-h-3-bold">Module Table Data</h3>
           <div>
-            <div className="table-container" id="custom-scrollbar">
+            <div className="table-container custom-scrollbar">
               <table>
                 <thead>
                   <tr className="subtitle-1">
