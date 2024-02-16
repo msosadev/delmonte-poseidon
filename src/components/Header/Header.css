@@ -25,6 +25,7 @@
 
 .switcher-cta img {
     width: 29px;
+    cursor: pointer;
 }
 
 /* Top Header Grid */

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import Article from "./components/Article/Article";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   // Progress bar
@@ -29,6 +30,7 @@ function App() {
       </div>
       <Header />
       <Article />
+      <Footer />
     </div>
   );
 }

@@ -38,3 +38,9 @@
 .navigation .active {
     color: var(--color-primary-500);
 }
+
+@media only screen and (min-width: 924px) {
+    .navigation-wrapper {
+        background: var(--color-sidebar-gradient);
+    }
+}

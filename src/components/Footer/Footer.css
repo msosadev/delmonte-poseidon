@@ -1,0 +1,245 @@
+.footer-wrapper {
+    display: grid;
+    place-items: center;
+    background-color: #EAECEE;
+    margin-bottom: 16px;
+    padding-bottom: 56px;
+}
+
+.main-footer {
+    display: grid;
+    padding: 32px 16px 16px 16px;
+    width: 328px;
+}
+
+.main-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-footer li {
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    gap: 27px;
+}
+
+.social-icons img {
+    cursor: pointer;
+}
+
+.growth-solution button {
+    padding: 8px 69px;
+}
+
+.main-footer input {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--grey-blue-200);
+    background-color: var(--grey-200);
+    width: 223px;
+}
+
+.copyright {
+    width: 100%;
+    padding: 0 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-row-gap: 24px;
+    grid-column-gap: 32px;
+}
+
+.copyright hr {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.license {
+    grid-area: 2 / 1 / 3 / 3;
+}
+
+.privacy-policy {
+    grid-area: 3 / 1 / 4 / 2;
+    cursor: pointer;
+}
+
+.cookie-policy {
+    grid-area: 3 / 2 / 4 / 3;
+    cursor: pointer;
+}
+
+.copyright hr {
+    border-top: 3px dotted #BAB8B8;
+    width: 100%;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+.license {
+    text-align: center;
+}
+
+.privacy-policy {
+    text-align: right;
+}
+
+.cookie-policy {
+    text-align: left;
+}
+
+/* CSS GRID */
+
+.main-footer {
+    display: grid;
+    grid-template-columns: 141px 1fr;
+    grid-template-rows: repeat(5, auto);
+    grid-column-gap: 16px;
+    grid-row-gap: 31px;
+}
+
+.landing-page {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.resources {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.blog-email {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.growth-solution {
+    grid-area: 3 / 1 / 4 / 3;
+}
+
+.social-container {
+    grid-area: 4 / 1 / 5 / 3;
+}
+
+.newsletter-container {
+    grid-area: 5 / 1 / 6 / 3;
+}
+
+@media only screen and (min-width: 600px) {
+    .main-footer input {
+        width: 320px;
+    }
+
+    .main-footer {
+        padding: 32px;
+        width: 536px;
+    }
+
+    .copyright {
+        padding: 0 32px;
+
+    }
+
+    .main-footer {
+        display: grid;
+        grid-template-columns: 141px 1fr 1fr;
+        grid-template-rows: repeat(4, auto);
+        grid-column-gap: 32px;
+    }
+
+    .landing-page {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .resources {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .blog-email {
+        grid-area: 1 / 3 / 2 / 4;
+    }
+
+    .growth-solution {
+        grid-area: 2 / 1 / 3 / 4;
+    }
+
+    .social-container {
+        grid-area: 3 / 1 / 4 / 4;
+    }
+
+    .newsletter-container {
+        grid-area: 4 / 1 / 5 / 4;
+    }
+}
+
+@media only screen and (min-width: 1240px) {
+    /* Copyright Grid */
+
+    .copyright {
+        grid-template-columns: 1fr 880px 82px 80px 1fr;
+        grid-template-rows: repeat(2, auto);
+    }
+
+    .copyright hr {
+        grid-area: 1 / 2 / 2 / 5;
+    }
+
+    .license {
+        grid-area: 2 / 2 / 3 / 3;
+        text-align: left;
+    }
+
+    .privacy-policy {
+        grid-area: 2 / 3 / 3 / 4;
+        text-align: left;
+    }
+
+    .cookie-policy {
+        grid-area: 2 / 4 / 3 / 5;
+        text-align: left;
+    }
+
+    /* Footer Grid */
+
+    .main-footer {
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(2, 1fr);
+        width: 1176px;
+    }
+
+    .landing-page {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .resources {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .blog-email {
+        grid-area: 1 / 3 / 2 / 4;
+    }
+
+    .social-container {
+        grid-area: 1 / 4 / 2 / 5;
+    }
+
+    .newsletter-container {
+        grid-area: 2 / 4 / 3 / 5;
+    }
+
+    .growth-solution {
+        grid-area: 2 / 1 / 3 / 4;
+    }
+}
+
+@media only screen and (min-width: 1512px) {
+    .main-footer {
+        width: 1448px;
+    }
+
+    .copyright {
+        grid-template-columns: 1fr 1158px 82px 80px 1fr;
+    }
+}
