@@ -1,3 +1,3 @@
-#Delmonte Poseidon Theme
+# Delmonte Poseidon Theme
 
-Pillar page theme built for Delmonte written in React.
+Pillar page theme developed for Delmonte written in React.
