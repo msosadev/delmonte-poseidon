@@ -67,7 +67,7 @@ export default function Footer() {
         
       </div>
       <div className="copyright body-3">
-          <hr></hr>
+          <div className="divider"></div>
           <p className="license">
             © 2022 Del Monte & Partner comunicazione S.r.L. Odyssey Theme
           </p>
