@@ -11,7 +11,7 @@ export default function Article() {
   const handleSectionClick = (id) => {
     // Scroll to the clicked section
     const element = document.getElementById(id);
-    element.scrollIntoView({ behavior: "smooth" });
+    element.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
   };
 
   const handleScroll = () => {

@@ -1,11 +1,17 @@
-.navigation {
-    position: sticky;
-    top: 167px;
-}
+
 
 .navigation-wrapper {
     background-color: var(--color-sidebar-solid);
-    padding: 167px 16px;
+    padding: 16px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid var(--grey-200);
+}
+
+.navigation-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .navigation ul {
@@ -40,7 +46,31 @@
 }
 
 @media only screen and (min-width: 924px) {
+    .navigation {
+        position: sticky;
+        top: 40px;
+    }
     .navigation-wrapper {
         background: var(--color-sidebar-gradient);
+        padding: 32px 16px;
+    }
+
+    
+    .navigation ul {
+        display: block;
+    }
+
+    .navigation-title img {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1240px) {
+    .navigation-wrapper {
+        padding: 167px 16px;
+    }
+
+    .navigation {
+        top: 167px;
     }
 }
