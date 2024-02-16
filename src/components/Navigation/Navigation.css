@@ -6,6 +6,7 @@
     position: sticky;
     top: 0;
     border-bottom: 1px solid var(--grey-200);
+    z-index: 105;
 }
 
 .navigation-title {
