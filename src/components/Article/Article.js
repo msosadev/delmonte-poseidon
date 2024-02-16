@@ -11,7 +11,11 @@ export default function Article() {
   const handleSectionClick = (id) => {
     // Scroll to the clicked section
     const element = document.getElementById(id);
-    element.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
   };
 
   const handleScroll = () => {
@@ -196,48 +200,50 @@ export default function Article() {
             contenuti, poche ma buone
           </span>
           <h3 className="headings-h-3-bold">Module Table Data</h3>
-          <div className="table-container">
-            <table>
-              <thead>
-                <tr className="subtitle-1">
-                  <th>Content Data #1</th>
-                  <th>Content Data #2</th>
-                  <th>Content Data #3</th>
-                  <th>Content Data #4</th>
-                  <th>Content Data #5</th>
-                </tr>
-              </thead>
-              <tbody className="body-2">
-                <tr>
-                  <td>Content Data #1</td>
-                  <td>Content Data #2</td>
-                  <td>Content Data #3</td>
-                  <td>Content Data #4</td>
-                  <td>Content Data #5</td>
-                </tr>
-                <tr>
-                  <td>Content Data #1</td>
-                  <td>Content Data #2</td>
-                  <td>Content Data #3</td>
-                  <td>Content Data #4</td>
-                  <td>Content Data #5</td>
-                </tr>
-                <tr>
-                  <td>Content Data #1</td>
-                  <td>Content Data #2</td>
-                  <td>Content Data #3</td>
-                  <td>Content Data #4</td>
-                  <td>Content Data #5</td>
-                </tr>
-                <tr>
-                  <td>Content Data #1</td>
-                  <td>Content Data #2</td>
-                  <td>Content Data #3</td>
-                  <td>Content Data #4</td>
-                  <td>Content Data #5</td>
-                </tr>
-              </tbody>
-            </table>
+          <div>
+            <div className="table-container" id="custom-scrollbar">
+              <table>
+                <thead>
+                  <tr className="subtitle-1">
+                    <th>Content Data #1</th>
+                    <th>Content Data #2</th>
+                    <th>Content Data #3</th>
+                    <th>Content Data #4</th>
+                    <th>Content Data #5</th>
+                  </tr>
+                </thead>
+                <tbody className="body-2">
+                  <tr>
+                    <td>Content Data #1</td>
+                    <td>Content Data #2</td>
+                    <td>Content Data #3</td>
+                    <td>Content Data #4</td>
+                    <td>Content Data #5</td>
+                  </tr>
+                  <tr>
+                    <td>Content Data #1</td>
+                    <td>Content Data #2</td>
+                    <td>Content Data #3</td>
+                    <td>Content Data #4</td>
+                    <td>Content Data #5</td>
+                  </tr>
+                  <tr>
+                    <td>Content Data #1</td>
+                    <td>Content Data #2</td>
+                    <td>Content Data #3</td>
+                    <td>Content Data #4</td>
+                    <td>Content Data #5</td>
+                  </tr>
+                  <tr>
+                    <td>Content Data #1</td>
+                    <td>Content Data #2</td>
+                    <td>Content Data #3</td>
+                    <td>Content Data #4</td>
+                    <td>Content Data #5</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
           <br></br>
           <q>

@@ -70,6 +70,18 @@ td:last-child {
     /* Remove border from the last cell in each row */
 }
 
+/* Custom horizontal scrollbar styles */
+#custom-scrollbar::-webkit-scrollbar {
+    height: 5px;
+    background-color: #D9D9D9;
+}
+
+#custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary-500);
+    border-radius: 3px;
+}
+
+
 @media only screen and (min-width: 600px) {
     .article {
         padding: 32px;
@@ -80,6 +92,7 @@ td:last-child {
     .article {
         padding: 167px 32px;
     }
+
     .headings-display-big {
         font-size: 36px;
         font-family: "DM Sans";
