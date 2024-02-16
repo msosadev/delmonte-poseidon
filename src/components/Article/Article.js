@@ -266,20 +266,23 @@ export default function Article() {
           <div className="link-container">
             <VisualLink
               title="Sed viverra nisl ac ex euismod"
+              alt="Sed viverra nisl ac ex euismod"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra nisl ac ex euismod, sit amet porta quam consectetur."
-              src="https://blog.hubspot.com/hs-fs/hubfs/social-media-marketing-guide.jpg?width=595&height=400&name=social-media-marketing-guide.jpg"
+              src="https://cdn.pixabay.com/photo/2016/06/03/13/57/digital-marketing-1433427_960_720.jpg"
               href="https://blog.hubspot.com/marketing/social-media-marketing?_conv_v=vi%3A1*sc%3A4*cs%3A1671789023*fs%3A1656939408*pv%3A7*seg%3A%7B10031564.1%7D*exp%3A%7B100330256.%7Bv.1003131869-g.%7B%7D%7D-100331905.%7Bv.1003135838-g.%7B10033808.1-10033809.1%7D%7D%7D*ps%3A1657532629&_conv_s=si%3A4*sh%3A1671789022836-0.476087639009229*pv%3A2"
             />
             <VisualLink
               title="Sed viverra nisl ac ex euismod"
+              alt="Sed viverra nisl ac ex euismod"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra nisl ac ex euismod, sit amet porta quam consectetur."
-              src="https://images.squarespace-cdn.com/content/v1/5e2fbc2babc0e4424fcbda07/487a7107-0479-4274-8646-d2346b5b582e/istockphoto-1334591614-170667a.jpg"
+              src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_960_720.jpg"
               href="https://blog.hubspot.com/marketing/social-media-marketing?_conv_v=vi%3A1*sc%3A4*cs%3A1671789023*fs%3A1656939408*pv%3A7*seg%3A%7B10031564.1%7D*exp%3A%7B100330256.%7Bv.1003131869-g.%7B%7D%7D-100331905.%7Bv.1003135838-g.%7B10033808.1-10033809.1%7D%7D%7D*ps%3A1657532629&_conv_s=si%3A4*sh%3A1671789022836-0.476087639009229*pv%3A2"
             />
             <VisualLink
               title="Sed viverra nisl ac ex euismod"
+              alt="Sed viverra nisl ac ex euismod"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra nisl ac ex euismod, sit amet porta quam consectetur."
-              src="https://blog.hubspot.com/hs-fs/hubfs/marketing-plan-examples_1.webp?width=595&height=400&name=marketing-plan-examples_1.webp"
+              src="https://cdn.pixabay.com/photo/2018/01/17/07/06/laptop-3087585_960_720.jpg"
               href="https://blog.hubspot.com/marketing/social-media-marketing?_conv_v=vi%3A1*sc%3A4*cs%3A1671789023*fs%3A1656939408*pv%3A7*seg%3A%7B10031564.1%7D*exp%3A%7B100330256.%7Bv.1003131869-g.%7B%7D%7D-100331905.%7Bv.1003135838-g.%7B10033808.1-10033809.1%7D%7D%7D*ps%3A1657532629&_conv_s=si%3A4*sh%3A1671789022836-0.476087639009229*pv%3A2"
             />
           </div>
@@ -287,20 +290,23 @@ export default function Article() {
           <div className="card-container">
             <Card
               title="Sed viverra nisl ac ex euismod"
+              alt="Sed viverra nisl ac ex euismod"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra nisl ac ex euismod, sit amet porta quam consectetur."
-              src="https://www.feedough.com/wp-content/uploads/2020/08/what-is-marketing.png"
+              src="https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg"
               href="https://blog.hubspot.com/marketing/social-media-marketing?_conv_v=vi%3A1*sc%3A4*cs%3A1671789023*fs%3A1656939408*pv%3A7*seg%3A%7B10031564.1%7D*exp%3A%7B100330256.%7Bv.1003131869-g.%7B%7D%7D-100331905.%7Bv.1003135838-g.%7B10033808.1-10033809.1%7D%7D%7D*ps%3A1657532629&_conv_s=si%3A4*sh%3A1671789022836-0.476087639009229*pv%3A2"
             />
             <Card
               title="Sed viverra nisl ac ex euismod"
+              alt="Sed viverra nisl ac ex euismod"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra nisl ac ex euismod, sit amet porta quam consectetur."
-              src="https://rcsacademy.corriere.it/wp-content/uploads/2023/06/ON_Digital-Marketing_7%5EEd-min-scaled.jpg?v=1686648902"
+              src="https://cdn.pixabay.com/photo/2013/08/11/19/46/coffee-171653_960_720.jpg"
               href="https://blog.hubspot.com/marketing/social-media-marketing?_conv_v=vi%3A1*sc%3A4*cs%3A1671789023*fs%3A1656939408*pv%3A7*seg%3A%7B10031564.1%7D*exp%3A%7B100330256.%7Bv.1003131869-g.%7B%7D%7D-100331905.%7Bv.1003135838-g.%7B10033808.1-10033809.1%7D%7D%7D*ps%3A1657532629&_conv_s=si%3A4*sh%3A1671789022836-0.476087639009229*pv%3A2"
             />
             <Card
               title="Sed viverra nisl ac ex euismod"
+              alt="Sed viverra nisl ac ex euismod"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra nisl ac ex euismod, sit amet porta quam consectetur."
-              src="https://www.iqmselezione.it/images/Corsi-marketing_m.webp"
+              src="https://cdn.pixabay.com/photo/2015/06/24/01/15/coffee-819362_960_720.jpg"
               href="https://blog.hubspot.com/marketing/social-media-marketing?_conv_v=vi%3A1*sc%3A4*cs%3A1671789023*fs%3A1656939408*pv%3A7*seg%3A%7B10031564.1%7D*exp%3A%7B100330256.%7Bv.1003131869-g.%7B%7D%7D-100331905.%7Bv.1003135838-g.%7B10033808.1-10033809.1%7D%7D%7D*ps%3A1657532629&_conv_s=si%3A4*sh%3A1671789022836-0.476087639009229*pv%3A2"
             />
           </div>

@@ -69,7 +69,7 @@ export default function Footer() {
       <div className="copyright body-3">
           <div className="divider"></div>
           <p className="license">
-            © 2022 Del Monte & Partner comunicazione S.r.L. Odyssey Theme
+            © Miguel Sosa 2024 - All rights reserved
           </p>
           <p className="privacy-policy">Privacy Policy</p>
           <p className="cookie-policy">Cookie Policy</p>
