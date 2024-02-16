@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/delmonte-poseidon/static/css/main.f30bd1e8.css",
+    "main.js": "/delmonte-poseidon/static/js/main.9c6da81d.js",
+    "static/js/592.176c0ebd.chunk.js": "/delmonte-poseidon/static/js/592.176c0ebd.chunk.js",
+    "static/media/header-bg.png": "/delmonte-poseidon/static/media/header-bg.6d836578a943daa07e30.png",
+    "static/media/logo.svg": "/delmonte-poseidon/static/media/logo.e3548d503f5819a27c9be642efac58fe.svg",
+    "static/media/instagram.svg": "/delmonte-poseidon/static/media/instagram.23b4f5512e9393a0911d57952ca18dc9.svg",
+    "static/media/twitter.svg": "/delmonte-poseidon/static/media/twitter.455354b4a86ce7619d36d8867113242b.svg",
+    "static/media/switcher-lang.svg": "/delmonte-poseidon/static/media/switcher-lang.bcdd5eb1e40248bd1914620ae92474f8.svg",
+    "index.html": "/delmonte-poseidon/index.html",
+    "static/media/linkedin.svg": "/delmonte-poseidon/static/media/linkedin.7fc8e4967878a665fc1bc17905be6eae.svg",
+    "static/media/icon-arrow-right.svg": "/delmonte-poseidon/static/media/icon-arrow-right.198b708ae7b69143fa1b521b8cebc331.svg",
+    "static/media/facebook.svg": "/delmonte-poseidon/static/media/facebook.275e51598cea02a8a1a271e76bb0e507.svg",
+    "static/media/chevron_down.svg": "/delmonte-poseidon/static/media/chevron_down.371ef5e3ca0dfc3819dae2beaec0f2c0.svg",
+    "static/media/chevron_right.svg": "/delmonte-poseidon/static/media/chevron_right.c668f552ba6e83c313b566c84bfbbd62.svg",
+    "main.f30bd1e8.css.map": "/delmonte-poseidon/static/css/main.f30bd1e8.css.map",
+    "main.9c6da81d.js.map": "/delmonte-poseidon/static/js/main.9c6da81d.js.map",
+    "592.176c0ebd.chunk.js.map": "/delmonte-poseidon/static/js/592.176c0ebd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f30bd1e8.css",
+    "static/js/main.9c6da81d.js"
+  ]
+}
