@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/delmonte-poseidon/static/css/main.f30bd1e8.css",
+    "main.css": "/delmonte-poseidon/static/css/main.6b1ffb89.css",
     "main.js": "/delmonte-poseidon/static/js/main.9c6da81d.js",
     "static/js/592.176c0ebd.chunk.js": "/delmonte-poseidon/static/js/592.176c0ebd.chunk.js",
     "static/media/header-bg.png": "/delmonte-poseidon/static/media/header-bg.6d836578a943daa07e30.png",
@@ -14,12 +14,12 @@
     "static/media/facebook.svg": "/delmonte-poseidon/static/media/facebook.275e51598cea02a8a1a271e76bb0e507.svg",
     "static/media/chevron_down.svg": "/delmonte-poseidon/static/media/chevron_down.371ef5e3ca0dfc3819dae2beaec0f2c0.svg",
     "static/media/chevron_right.svg": "/delmonte-poseidon/static/media/chevron_right.c668f552ba6e83c313b566c84bfbbd62.svg",
-    "main.f30bd1e8.css.map": "/delmonte-poseidon/static/css/main.f30bd1e8.css.map",
+    "main.6b1ffb89.css.map": "/delmonte-poseidon/static/css/main.6b1ffb89.css.map",
     "main.9c6da81d.js.map": "/delmonte-poseidon/static/js/main.9c6da81d.js.map",
     "592.176c0ebd.chunk.js.map": "/delmonte-poseidon/static/js/592.176c0ebd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f30bd1e8.css",
+    "static/css/main.6b1ffb89.css",
     "static/js/main.9c6da81d.js"
   ]
 }
