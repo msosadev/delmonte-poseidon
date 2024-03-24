@@ -60,7 +60,7 @@ export default function Footer() {
           <p className="body-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id
             tempor lacus, tincidunt tristique enim. Integer sit amet quam
-            pretium, malesuada sem nec, ornare nisl
+            pretium, malesuada sem nec, ornare nisl.
           </p>
         </div>
 
